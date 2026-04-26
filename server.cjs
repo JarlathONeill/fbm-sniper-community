@@ -667,6 +667,10 @@ app.post("/api/reset-memory", (_req, res) => {
     fs.writeFileSync(FOUND_FILE, "", "utf8");
     fs.writeFileSync(REJECTED_FILE, REJECTED_HEADERS, "utf8");
     fs.writeFileSync(SEEN_IDS_FILE, "[]", "utf8");
+    for (const [platform, file] of Object.entries(SHARED_FOUND_FILES)) {
+      if (fs.existsSync(file)) fs.writeFileSync(file, "", "utf8");
+      broadcast({ type: "shared-found-updated", platform, ts: Date.now() });
+    }
     broadcast({ type: "car-found-updated", ts: Date.now() });
     broadcast({ type: "car-rejected-updated", ts: Date.now() });
     res.json({ ok: true });

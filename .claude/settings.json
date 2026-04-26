@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs grep *)",
+      "Bash(grep -n \"checked, \\\\${candidates.length} scored\\\\|checked, \\\\${candidates.length}\" /c/repos/fbm-sniper-community/lib/vinted-sniper.js)",
+      "Bash(node -e ' *)"
+    ]
+  }
+}
