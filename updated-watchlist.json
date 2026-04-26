@@ -4,33 +4,20 @@
     "label": "Nintendo Switch 2",
     "group": "Consoles",
     "enabled": true,
-    "product": "iphone",
+    "product": "console",
     "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "Nintendo Switch 2",
-    "aliases": [
-      "Nintendo Switch 2",
-      "nintendo switch 2",
-      "iPhone 16 Pro Max",
-      "iphone 16 pro max"
-    ],
+    "aliases": ["Nintendo Switch 2", "nintendo switch 2", "Switch 2"],
     "mustInclude": [],
-    "mustAvoid": [],
+    "mustAvoid": ["game only", "case only", "controller only", "broken", "faulty", "spares", "repairs", "dock only"],
     "radiusKM": null,
     "minPrice": null,
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 350
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 350
-      }
+      "facebook": { "minPrice": 100, "maxPrice": 380 },
+      "vinted": { "minPrice": 100, "maxPrice": 380 }
     }
   },
   {
@@ -40,14 +27,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 16 Pro Max",
-    "aliases": [
-      "iPhone 16 Pro Max",
-      "iphone 16 pro max"
-    ],
+    "aliases": ["iPhone 16 Pro Max", "iphone 16 pro max"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -55,78 +37,8 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 800
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 800
-      }
-    }
-  },
-  {
-    "id": "iphone-16-pro",
-    "label": "iPhone 16 Pro",
-    "group": "Phones",
-    "enabled": true,
-    "product": "iphone",
-    "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
-    "query": "iPhone 16 Pro",
-    "aliases": [
-      "iPhone 16 Pro",
-      "iphone 16 pro"
-    ],
-    "mustInclude": [],
-    "mustAvoid": [],
-    "radiusKM": null,
-    "minPrice": null,
-    "maxPrice": null,
-    "allowShipping": true,
-    "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 700
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 700
-      }
-    }
-  },
-  {
-    "id": "iphone-16",
-    "label": "iPhone 16",
-    "group": "Phones",
-    "enabled": true,
-    "product": "iphone",
-    "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
-    "query": "iPhone 16",
-    "aliases": [
-      "iPhone 16",
-      "iphone 16"
-    ],
-    "mustInclude": [],
-    "mustAvoid": [],
-    "radiusKM": null,
-    "minPrice": null,
-    "maxPrice": null,
-    "allowShipping": true,
-    "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 520
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 520
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 800 },
+      "vinted": { "minPrice": 50, "maxPrice": 800 }
     }
   },
   {
@@ -136,16 +48,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 16 Pro Max 256GB",
-    "aliases": [
-      "iPhone 16 Pro Max 256GB",
-      "iphone 16 pro max 256gb",
-      "iphone 16 pro max 256"
-    ],
+    "aliases": ["iPhone 16 Pro Max 256GB", "iphone 16 pro max 256gb", "iphone 16 pro max 256"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -153,14 +58,8 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 780
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 780
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 780 },
+      "vinted": { "minPrice": 50, "maxPrice": 780 }
     }
   },
   {
@@ -170,16 +69,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 16 Pro Max 512GB",
-    "aliases": [
-      "iPhone 16 Pro Max 512GB",
-      "iphone 16 pro max 512gb",
-      "iphone 16 pro max 512"
-    ],
+    "aliases": ["iPhone 16 Pro Max 512GB", "iphone 16 pro max 512gb", "iphone 16 pro max 512"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -187,14 +79,29 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 860
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 860
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 860 },
+      "vinted": { "minPrice": 50, "maxPrice": 860 }
+    }
+  },
+  {
+    "id": "iphone-16-pro",
+    "label": "iPhone 16 Pro",
+    "group": "Phones",
+    "enabled": true,
+    "product": "iphone",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "iPhone 16 Pro",
+    "aliases": ["iPhone 16 Pro", "iphone 16 pro"],
+    "mustInclude": [],
+    "mustAvoid": [],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 50, "maxPrice": 700 },
+      "vinted": { "minPrice": 50, "maxPrice": 700 }
     }
   },
   {
@@ -204,16 +111,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 16 Pro 128GB",
-    "aliases": [
-      "iPhone 16 Pro 128GB",
-      "iphone 16 pro 128gb",
-      "iphone 16 pro 128"
-    ],
+    "aliases": ["iPhone 16 Pro 128GB", "iphone 16 pro 128gb", "iphone 16 pro 128"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -221,14 +121,8 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 650
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 650
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 650 },
+      "vinted": { "minPrice": 50, "maxPrice": 650 }
     }
   },
   {
@@ -238,16 +132,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 16 Pro 256GB",
-    "aliases": [
-      "iPhone 16 Pro 256GB",
-      "iphone 16 pro 256gb",
-      "iphone 16 pro 256"
-    ],
+    "aliases": ["iPhone 16 Pro 256GB", "iphone 16 pro 256gb", "iphone 16 pro 256"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -255,14 +142,8 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 700
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 700
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 700 },
+      "vinted": { "minPrice": 50, "maxPrice": 700 }
     }
   },
   {
@@ -272,16 +153,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 16 Pro 512GB",
-    "aliases": [
-      "iPhone 16 Pro 512GB",
-      "iphone 16 pro 512gb",
-      "iphone 16 pro 512"
-    ],
+    "aliases": ["iPhone 16 Pro 512GB", "iphone 16 pro 512gb", "iphone 16 pro 512"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -289,14 +163,29 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 770
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 770
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 770 },
+      "vinted": { "minPrice": 50, "maxPrice": 770 }
+    }
+  },
+  {
+    "id": "iphone-16",
+    "label": "iPhone 16",
+    "group": "Phones",
+    "enabled": true,
+    "product": "iphone",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "iPhone 16",
+    "aliases": ["iPhone 16", "iphone 16"],
+    "mustInclude": [],
+    "mustAvoid": [],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 50, "maxPrice": 520 },
+      "vinted": { "minPrice": 50, "maxPrice": 520 }
     }
   },
   {
@@ -306,16 +195,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 16 128GB",
-    "aliases": [
-      "iPhone 16 128GB",
-      "iphone 16 128gb",
-      "iphone 16 128"
-    ],
+    "aliases": ["iPhone 16 128GB", "iphone 16 128gb", "iphone 16 128"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -323,14 +205,8 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 500
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 500
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 500 },
+      "vinted": { "minPrice": 50, "maxPrice": 500 }
     }
   },
   {
@@ -340,16 +216,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 16 256GB",
-    "aliases": [
-      "iPhone 16 256GB",
-      "iphone 16 256gb",
-      "iphone 16 256"
-    ],
+    "aliases": ["iPhone 16 256GB", "iphone 16 256gb", "iphone 16 256"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -357,14 +226,8 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 550
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 550
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 550 },
+      "vinted": { "minPrice": 50, "maxPrice": 550 }
     }
   },
   {
@@ -374,16 +237,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 16 512GB",
-    "aliases": [
-      "iPhone 16 512GB",
-      "iphone 16 512gb",
-      "iphone 16 512"
-    ],
+    "aliases": ["iPhone 16 512GB", "iphone 16 512gb", "iphone 16 512"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -391,14 +247,8 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 620
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 620
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 620 },
+      "vinted": { "minPrice": 50, "maxPrice": 620 }
     }
   },
   {
@@ -408,14 +258,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 15 Pro Max",
-    "aliases": [
-      "iPhone 15 Pro Max",
-      "iphone 15 pro max"
-    ],
+    "aliases": ["iPhone 15 Pro Max", "iphone 15 pro max"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -423,78 +268,8 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 600
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 600
-      }
-    }
-  },
-  {
-    "id": "iphone-15-pro",
-    "label": "iPhone 15 Pro",
-    "group": "Phones",
-    "enabled": true,
-    "product": "iphone",
-    "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
-    "query": "iPhone 15 Pro",
-    "aliases": [
-      "iPhone 15 Pro",
-      "iphone 15 pro"
-    ],
-    "mustInclude": [],
-    "mustAvoid": [],
-    "radiusKM": null,
-    "minPrice": null,
-    "maxPrice": null,
-    "allowShipping": true,
-    "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 500
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 500
-      }
-    }
-  },
-  {
-    "id": "iphone-15",
-    "label": "iPhone 15",
-    "group": "Phones",
-    "enabled": true,
-    "product": "iphone",
-    "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
-    "query": "iPhone 15",
-    "aliases": [
-      "iPhone 15",
-      "iphone 15"
-    ],
-    "mustInclude": [],
-    "mustAvoid": [],
-    "radiusKM": null,
-    "minPrice": null,
-    "maxPrice": null,
-    "allowShipping": true,
-    "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 400
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 400
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 600 },
+      "vinted": { "minPrice": 50, "maxPrice": 600 }
     }
   },
   {
@@ -504,16 +279,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 15 Pro Max 256GB",
-    "aliases": [
-      "iPhone 15 Pro Max 256GB",
-      "iphone 15 pro max 256gb",
-      "iphone 15 pro max 256"
-    ],
+    "aliases": ["iPhone 15 Pro Max 256GB", "iphone 15 pro max 256gb", "iphone 15 pro max 256"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -521,14 +289,8 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 580
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 580
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 580 },
+      "vinted": { "minPrice": 50, "maxPrice": 580 }
     }
   },
   {
@@ -538,16 +300,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 15 Pro Max 512GB",
-    "aliases": [
-      "iPhone 15 Pro Max 512GB",
-      "iphone 15 pro max 512gb",
-      "iphone 15 pro max 512"
-    ],
+    "aliases": ["iPhone 15 Pro Max 512GB", "iphone 15 pro max 512gb", "iphone 15 pro max 512"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -555,14 +310,29 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 650
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 650
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 650 },
+      "vinted": { "minPrice": 50, "maxPrice": 650 }
+    }
+  },
+  {
+    "id": "iphone-15-pro",
+    "label": "iPhone 15 Pro",
+    "group": "Phones",
+    "enabled": true,
+    "product": "iphone",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "iPhone 15 Pro",
+    "aliases": ["iPhone 15 Pro", "iphone 15 pro"],
+    "mustInclude": [],
+    "mustAvoid": [],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 50, "maxPrice": 500 },
+      "vinted": { "minPrice": 50, "maxPrice": 500 }
     }
   },
   {
@@ -572,16 +342,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 15 Pro 128GB",
-    "aliases": [
-      "iPhone 15 Pro 128GB",
-      "iphone 15 pro 128gb",
-      "iphone 15 pro 128"
-    ],
+    "aliases": ["iPhone 15 Pro 128GB", "iphone 15 pro 128gb", "iphone 15 pro 128"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -589,14 +352,8 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 450
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 450
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 450 },
+      "vinted": { "minPrice": 50, "maxPrice": 450 }
     }
   },
   {
@@ -606,16 +363,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 15 Pro 256GB",
-    "aliases": [
-      "iPhone 15 Pro 256GB",
-      "iphone 15 pro 256gb",
-      "iphone 15 pro 256"
-    ],
+    "aliases": ["iPhone 15 Pro 256GB", "iphone 15 pro 256gb", "iphone 15 pro 256"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -623,14 +373,8 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 500
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 500
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 500 },
+      "vinted": { "minPrice": 50, "maxPrice": 500 }
     }
   },
   {
@@ -640,16 +384,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 15 Pro 512GB",
-    "aliases": [
-      "iPhone 15 Pro 512GB",
-      "iphone 15 pro 512gb",
-      "iphone 15 pro 512"
-    ],
+    "aliases": ["iPhone 15 Pro 512GB", "iphone 15 pro 512gb", "iphone 15 pro 512"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -657,14 +394,29 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 570
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 570
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 570 },
+      "vinted": { "minPrice": 50, "maxPrice": 570 }
+    }
+  },
+  {
+    "id": "iphone-15",
+    "label": "iPhone 15",
+    "group": "Phones",
+    "enabled": true,
+    "product": "iphone",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "iPhone 15",
+    "aliases": ["iPhone 15", "iphone 15"],
+    "mustInclude": [],
+    "mustAvoid": [],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 50, "maxPrice": 400 },
+      "vinted": { "minPrice": 50, "maxPrice": 400 }
     }
   },
   {
@@ -674,16 +426,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 15 128GB",
-    "aliases": [
-      "iPhone 15 128GB",
-      "iphone 15 128gb",
-      "iphone 15 128"
-    ],
+    "aliases": ["iPhone 15 128GB", "iphone 15 128gb", "iphone 15 128"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -691,14 +436,8 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 360
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 360
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 360 },
+      "vinted": { "minPrice": 50, "maxPrice": 360 }
     }
   },
   {
@@ -708,16 +447,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 15 256GB",
-    "aliases": [
-      "iPhone 15 256GB",
-      "iphone 15 256gb",
-      "iphone 15 256"
-    ],
+    "aliases": ["iPhone 15 256GB", "iphone 15 256gb", "iphone 15 256"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -725,14 +457,8 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 400
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 400
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 400 },
+      "vinted": { "minPrice": 50, "maxPrice": 400 }
     }
   },
   {
@@ -742,16 +468,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 15 512GB",
-    "aliases": [
-      "iPhone 15 512GB",
-      "iphone 15 512gb",
-      "iphone 15 512"
-    ],
+    "aliases": ["iPhone 15 512GB", "iphone 15 512gb", "iphone 15 512"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -759,14 +478,8 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 440
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 440
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 440 },
+      "vinted": { "minPrice": 50, "maxPrice": 440 }
     }
   },
   {
@@ -776,14 +489,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 14 Pro Max",
-    "aliases": [
-      "iPhone 14 Pro Max",
-      "iphone 14 pro max"
-    ],
+    "aliases": ["iPhone 14 Pro Max", "iphone 14 pro max"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -791,78 +499,8 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 420
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 420
-      }
-    }
-  },
-  {
-    "id": "iphone-14-pro",
-    "label": "iPhone 14 Pro",
-    "group": "Phones",
-    "enabled": true,
-    "product": "iphone",
-    "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
-    "query": "iPhone 14 Pro",
-    "aliases": [
-      "iPhone 14 Pro",
-      "iphone 14 pro"
-    ],
-    "mustInclude": [],
-    "mustAvoid": [],
-    "radiusKM": null,
-    "minPrice": null,
-    "maxPrice": null,
-    "allowShipping": true,
-    "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 360
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 360
-      }
-    }
-  },
-  {
-    "id": "iphone-14",
-    "label": "iPhone 14",
-    "group": "Phones",
-    "enabled": true,
-    "product": "iphone",
-    "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
-    "query": "iPhone 14",
-    "aliases": [
-      "iPhone 14",
-      "iphone 14"
-    ],
-    "mustInclude": [],
-    "mustAvoid": [],
-    "radiusKM": null,
-    "minPrice": null,
-    "maxPrice": null,
-    "allowShipping": true,
-    "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 250
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 250
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 420 },
+      "vinted": { "minPrice": 50, "maxPrice": 420 }
     }
   },
   {
@@ -872,16 +510,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 14 Pro Max 128GB",
-    "aliases": [
-      "iPhone 14 Pro Max 128GB",
-      "iphone 14 pro max 128gb",
-      "iphone 14 pro max 128"
-    ],
+    "aliases": ["iPhone 14 Pro Max 128GB", "iphone 14 pro max 128gb", "iphone 14 pro max 128"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -889,14 +520,8 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 370
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 370
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 370 },
+      "vinted": { "minPrice": 50, "maxPrice": 370 }
     }
   },
   {
@@ -906,16 +531,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 14 Pro Max 256GB",
-    "aliases": [
-      "iPhone 14 Pro Max 256GB",
-      "iphone 14 pro max 256gb",
-      "iphone 14 pro max 256"
-    ],
+    "aliases": ["iPhone 14 Pro Max 256GB", "iphone 14 pro max 256gb", "iphone 14 pro max 256"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -923,14 +541,8 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 410
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 410
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 410 },
+      "vinted": { "minPrice": 50, "maxPrice": 410 }
     }
   },
   {
@@ -940,16 +552,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 14 Pro Max 512GB",
-    "aliases": [
-      "iPhone 14 Pro Max 512GB",
-      "iphone 14 pro max 512gb",
-      "iphone 14 pro max 512"
-    ],
+    "aliases": ["iPhone 14 Pro Max 512GB", "iphone 14 pro max 512gb", "iphone 14 pro max 512"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -957,14 +562,29 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 450
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 450
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 450 },
+      "vinted": { "minPrice": 50, "maxPrice": 450 }
+    }
+  },
+  {
+    "id": "iphone-14-pro",
+    "label": "iPhone 14 Pro",
+    "group": "Phones",
+    "enabled": true,
+    "product": "iphone",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "iPhone 14 Pro",
+    "aliases": ["iPhone 14 Pro", "iphone 14 pro"],
+    "mustInclude": [],
+    "mustAvoid": [],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 50, "maxPrice": 360 },
+      "vinted": { "minPrice": 50, "maxPrice": 360 }
     }
   },
   {
@@ -974,16 +594,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 14 Pro 128GB",
-    "aliases": [
-      "iPhone 14 Pro 128GB",
-      "iphone 14 pro 128gb",
-      "iphone 14 pro 128"
-    ],
+    "aliases": ["iPhone 14 Pro 128GB", "iphone 14 pro 128gb", "iphone 14 pro 128"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -991,14 +604,8 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 320
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 320
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 320 },
+      "vinted": { "minPrice": 50, "maxPrice": 320 }
     }
   },
   {
@@ -1008,16 +615,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 14 Pro 256GB",
-    "aliases": [
-      "iPhone 14 Pro 256GB",
-      "iphone 14 pro 256gb",
-      "iphone 14 pro 256"
-    ],
+    "aliases": ["iPhone 14 Pro 256GB", "iphone 14 pro 256gb", "iphone 14 pro 256"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -1025,14 +625,8 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 355
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 355
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 355 },
+      "vinted": { "minPrice": 50, "maxPrice": 355 }
     }
   },
   {
@@ -1042,16 +636,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 14 Pro 512GB",
-    "aliases": [
-      "iPhone 14 Pro 512GB",
-      "iphone 14 pro 512gb",
-      "iphone 14 pro 512"
-    ],
+    "aliases": ["iPhone 14 Pro 512GB", "iphone 14 pro 512gb", "iphone 14 pro 512"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -1059,14 +646,29 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 390
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 390
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 390 },
+      "vinted": { "minPrice": 50, "maxPrice": 390 }
+    }
+  },
+  {
+    "id": "iphone-14",
+    "label": "iPhone 14",
+    "group": "Phones",
+    "enabled": true,
+    "product": "iphone",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "iPhone 14",
+    "aliases": ["iPhone 14", "iphone 14"],
+    "mustInclude": [],
+    "mustAvoid": [],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 50, "maxPrice": 250 },
+      "vinted": { "minPrice": 50, "maxPrice": 250 }
     }
   },
   {
@@ -1076,16 +678,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 14 128GB",
-    "aliases": [
-      "iPhone 14 128GB",
-      "iphone 14 128gb",
-      "iphone 14 128"
-    ],
+    "aliases": ["iPhone 14 128GB", "iphone 14 128gb", "iphone 14 128"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -1093,14 +688,8 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 240
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 240
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 240 },
+      "vinted": { "minPrice": 50, "maxPrice": 240 }
     }
   },
   {
@@ -1110,16 +699,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 14 256GB",
-    "aliases": [
-      "iPhone 14 256GB",
-      "iphone 14 256gb",
-      "iphone 14 256"
-    ],
+    "aliases": ["iPhone 14 256GB", "iphone 14 256gb", "iphone 14 256"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -1127,14 +709,8 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 270
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 270
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 270 },
+      "vinted": { "minPrice": 50, "maxPrice": 270 }
     }
   },
   {
@@ -1144,16 +720,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 14 512GB",
-    "aliases": [
-      "iPhone 14 512GB",
-      "iphone 14 512gb",
-      "iphone 14 512"
-    ],
+    "aliases": ["iPhone 14 512GB", "iphone 14 512gb", "iphone 14 512"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -1161,14 +730,8 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 300
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 300
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 300 },
+      "vinted": { "minPrice": 50, "maxPrice": 300 }
     }
   },
   {
@@ -1178,14 +741,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 13 Pro Max",
-    "aliases": [
-      "iPhone 13 Pro Max",
-      "iphone 13 pro max"
-    ],
+    "aliases": ["iPhone 13 Pro Max", "iphone 13 pro max"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -1193,78 +751,8 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 310
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 310
-      }
-    }
-  },
-  {
-    "id": "iphone-13-pro",
-    "label": "iPhone 13 Pro",
-    "group": "Phones",
-    "enabled": true,
-    "product": "iphone",
-    "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
-    "query": "iPhone 13 Pro",
-    "aliases": [
-      "iPhone 13 Pro",
-      "iphone 13 pro"
-    ],
-    "mustInclude": [],
-    "mustAvoid": [],
-    "radiusKM": null,
-    "minPrice": null,
-    "maxPrice": null,
-    "allowShipping": true,
-    "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 260
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 260
-      }
-    }
-  },
-  {
-    "id": "iphone-13",
-    "label": "iPhone 13",
-    "group": "Phones",
-    "enabled": true,
-    "product": "iphone",
-    "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
-    "query": "iPhone 13",
-    "aliases": [
-      "iPhone 13",
-      "iphone 13"
-    ],
-    "mustInclude": [],
-    "mustAvoid": [],
-    "radiusKM": null,
-    "minPrice": null,
-    "maxPrice": null,
-    "allowShipping": true,
-    "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 190
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 190
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 310 },
+      "vinted": { "minPrice": 50, "maxPrice": 310 }
     }
   },
   {
@@ -1274,16 +762,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 13 Pro Max 128GB",
-    "aliases": [
-      "iPhone 13 Pro Max 128GB",
-      "iphone 13 pro max 128gb",
-      "iphone 13 pro max 128"
-    ],
+    "aliases": ["iPhone 13 Pro Max 128GB", "iphone 13 pro max 128gb", "iphone 13 pro max 128"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -1291,14 +772,8 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 270
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 270
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 270 },
+      "vinted": { "minPrice": 50, "maxPrice": 270 }
     }
   },
   {
@@ -1308,16 +783,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 13 Pro Max 256GB",
-    "aliases": [
-      "iPhone 13 Pro Max 256GB",
-      "iphone 13 pro max 256gb",
-      "iphone 13 pro max 256"
-    ],
+    "aliases": ["iPhone 13 Pro Max 256GB", "iphone 13 pro max 256gb", "iphone 13 pro max 256"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -1325,14 +793,8 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 300
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 300
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 300 },
+      "vinted": { "minPrice": 50, "maxPrice": 300 }
     }
   },
   {
@@ -1342,16 +804,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 13 Pro Max 512GB",
-    "aliases": [
-      "iPhone 13 Pro Max 512GB",
-      "iphone 13 pro max 512gb",
-      "iphone 13 pro max 512"
-    ],
+    "aliases": ["iPhone 13 Pro Max 512GB", "iphone 13 pro max 512gb", "iphone 13 pro max 512"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -1359,14 +814,29 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 330
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 330
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 330 },
+      "vinted": { "minPrice": 50, "maxPrice": 330 }
+    }
+  },
+  {
+    "id": "iphone-13-pro",
+    "label": "iPhone 13 Pro",
+    "group": "Phones",
+    "enabled": true,
+    "product": "iphone",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "iPhone 13 Pro",
+    "aliases": ["iPhone 13 Pro", "iphone 13 pro"],
+    "mustInclude": [],
+    "mustAvoid": [],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 50, "maxPrice": 260 },
+      "vinted": { "minPrice": 50, "maxPrice": 260 }
     }
   },
   {
@@ -1376,16 +846,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 13 Pro 128GB",
-    "aliases": [
-      "iPhone 13 Pro 128GB",
-      "iphone 13 pro 128gb",
-      "iphone 13 pro 128"
-    ],
+    "aliases": ["iPhone 13 Pro 128GB", "iphone 13 pro 128gb", "iphone 13 pro 128"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -1393,14 +856,8 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 230
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 230
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 230 },
+      "vinted": { "minPrice": 50, "maxPrice": 230 }
     }
   },
   {
@@ -1410,16 +867,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 13 Pro 256GB",
-    "aliases": [
-      "iPhone 13 Pro 256GB",
-      "iphone 13 pro 256gb",
-      "iphone 13 pro 256"
-    ],
+    "aliases": ["iPhone 13 Pro 256GB", "iphone 13 pro 256gb", "iphone 13 pro 256"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -1427,14 +877,8 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 260
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 260
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 260 },
+      "vinted": { "minPrice": 50, "maxPrice": 260 }
     }
   },
   {
@@ -1444,16 +888,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 13 Pro 512GB",
-    "aliases": [
-      "iPhone 13 Pro 512GB",
-      "iphone 13 pro 512gb",
-      "iphone 13 pro 512"
-    ],
+    "aliases": ["iPhone 13 Pro 512GB", "iphone 13 pro 512gb", "iphone 13 pro 512"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -1461,14 +898,29 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 290
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 290
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 290 },
+      "vinted": { "minPrice": 50, "maxPrice": 290 }
+    }
+  },
+  {
+    "id": "iphone-13",
+    "label": "iPhone 13",
+    "group": "Phones",
+    "enabled": true,
+    "product": "iphone",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "iPhone 13",
+    "aliases": ["iPhone 13", "iphone 13"],
+    "mustInclude": [],
+    "mustAvoid": [],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 50, "maxPrice": 190 },
+      "vinted": { "minPrice": 50, "maxPrice": 190 }
     }
   },
   {
@@ -1478,16 +930,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 13 128GB",
-    "aliases": [
-      "iPhone 13 128GB",
-      "iphone 13 128gb",
-      "iphone 13 128"
-    ],
+    "aliases": ["iPhone 13 128GB", "iphone 13 128gb", "iphone 13 128"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -1495,14 +940,8 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 175
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 175
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 175 },
+      "vinted": { "minPrice": 50, "maxPrice": 175 }
     }
   },
   {
@@ -1512,16 +951,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 13 256GB",
-    "aliases": [
-      "iPhone 13 256GB",
-      "iphone 13 256gb",
-      "iphone 13 256"
-    ],
+    "aliases": ["iPhone 13 256GB", "iphone 13 256gb", "iphone 13 256"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -1529,14 +961,8 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 200
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 200
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 200 },
+      "vinted": { "minPrice": 50, "maxPrice": 200 }
     }
   },
   {
@@ -1546,16 +972,9 @@
     "enabled": true,
     "product": "iphone",
     "targetType": "electronics",
-    "platforms": [
-      "facebook",
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPhone 13 512GB",
-    "aliases": [
-      "iPhone 13 512GB",
-      "iphone 13 512gb",
-      "iphone 13 512"
-    ],
+    "aliases": ["iPhone 13 512GB", "iphone 13 512gb", "iphone 13 512"],
     "mustInclude": [],
     "mustAvoid": [],
     "radiusKM": null,
@@ -1563,14 +982,281 @@
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 220
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 220
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 220 },
+      "vinted": { "minPrice": 50, "maxPrice": 220 }
+    }
+  },
+  {
+    "id": "samsung-s25-ultra",
+    "label": "Samsung Galaxy S25 Ultra",
+    "group": "Samsung",
+    "enabled": true,
+    "product": "samsung",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "Samsung Galaxy S25 Ultra",
+    "aliases": ["Samsung Galaxy S25 Ultra", "samsung s25 ultra", "Galaxy S25 Ultra", "S25 Ultra"],
+    "mustInclude": [],
+    "mustAvoid": ["broken", "cracked", "faulty", "spares", "repairs", "liquid damage", "smashed"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 100, "maxPrice": 700 },
+      "vinted": { "minPrice": 100, "maxPrice": 700 }
+    }
+  },
+  {
+    "id": "samsung-s25-plus",
+    "label": "Samsung Galaxy S25+",
+    "group": "Samsung",
+    "enabled": true,
+    "product": "samsung",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "Samsung Galaxy S25+",
+    "aliases": ["Samsung Galaxy S25+", "samsung s25 plus", "Galaxy S25+", "S25 Plus", "S25+"],
+    "mustInclude": [],
+    "mustAvoid": ["broken", "cracked", "faulty", "spares", "repairs", "liquid damage"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 80, "maxPrice": 560 },
+      "vinted": { "minPrice": 80, "maxPrice": 560 }
+    }
+  },
+  {
+    "id": "samsung-s25",
+    "label": "Samsung Galaxy S25",
+    "group": "Samsung",
+    "enabled": true,
+    "product": "samsung",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "Samsung Galaxy S25",
+    "aliases": ["Samsung Galaxy S25", "samsung s25", "Galaxy S25", "S25"],
+    "mustInclude": [],
+    "mustAvoid": ["ultra", "plus", "+", "broken", "cracked", "faulty", "spares", "repairs"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 60, "maxPrice": 460 },
+      "vinted": { "minPrice": 60, "maxPrice": 460 }
+    }
+  },
+  {
+    "id": "samsung-s24-ultra",
+    "label": "Samsung Galaxy S24 Ultra",
+    "group": "Samsung",
+    "enabled": true,
+    "product": "samsung",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "Samsung Galaxy S24 Ultra",
+    "aliases": ["Samsung Galaxy S24 Ultra", "samsung s24 ultra", "Galaxy S24 Ultra", "S24 Ultra"],
+    "mustInclude": [],
+    "mustAvoid": ["broken", "cracked", "faulty", "spares", "repairs", "liquid damage"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 100, "maxPrice": 560 },
+      "vinted": { "minPrice": 100, "maxPrice": 560 }
+    }
+  },
+  {
+    "id": "samsung-s24-plus",
+    "label": "Samsung Galaxy S24+",
+    "group": "Samsung",
+    "enabled": true,
+    "product": "samsung",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "Samsung Galaxy S24+",
+    "aliases": ["Samsung Galaxy S24+", "samsung s24 plus", "Galaxy S24+", "S24 Plus", "S24+"],
+    "mustInclude": [],
+    "mustAvoid": ["broken", "cracked", "faulty", "spares", "repairs"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 60, "maxPrice": 430 },
+      "vinted": { "minPrice": 60, "maxPrice": 430 }
+    }
+  },
+  {
+    "id": "samsung-s24",
+    "label": "Samsung Galaxy S24",
+    "group": "Samsung",
+    "enabled": true,
+    "product": "samsung",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "Samsung Galaxy S24",
+    "aliases": ["Samsung Galaxy S24", "samsung s24", "Galaxy S24", "S24"],
+    "mustInclude": [],
+    "mustAvoid": ["ultra", "plus", "+", "broken", "cracked", "faulty", "spares", "repairs"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 50, "maxPrice": 330 },
+      "vinted": { "minPrice": 50, "maxPrice": 330 }
+    }
+  },
+  {
+    "id": "samsung-s23-ultra",
+    "label": "Samsung Galaxy S23 Ultra",
+    "group": "Samsung",
+    "enabled": true,
+    "product": "samsung",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "Samsung Galaxy S23 Ultra",
+    "aliases": ["Samsung Galaxy S23 Ultra", "samsung s23 ultra", "Galaxy S23 Ultra", "S23 Ultra"],
+    "mustInclude": [],
+    "mustAvoid": ["broken", "cracked", "faulty", "spares", "repairs", "liquid damage"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 80, "maxPrice": 400 },
+      "vinted": { "minPrice": 80, "maxPrice": 400 }
+    }
+  },
+  {
+    "id": "samsung-s23",
+    "label": "Samsung Galaxy S23",
+    "group": "Samsung",
+    "enabled": true,
+    "product": "samsung",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "Samsung Galaxy S23",
+    "aliases": ["Samsung Galaxy S23", "samsung s23", "Galaxy S23", "S23"],
+    "mustInclude": [],
+    "mustAvoid": ["ultra", "plus", "+", "broken", "cracked", "faulty", "spares", "repairs"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 50, "maxPrice": 230 },
+      "vinted": { "minPrice": 50, "maxPrice": 230 }
+    }
+  },
+  {
+    "id": "google-pixel-9-pro-xl",
+    "label": "Google Pixel 9 Pro XL",
+    "group": "Google",
+    "enabled": true,
+    "product": "google",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "Google Pixel 9 Pro XL",
+    "aliases": ["Google Pixel 9 Pro XL", "pixel 9 pro xl", "Pixel 9 Pro XL"],
+    "mustInclude": [],
+    "mustAvoid": ["broken", "cracked", "faulty", "spares", "repairs", "liquid damage"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 80, "maxPrice": 520 },
+      "vinted": { "minPrice": 80, "maxPrice": 520 }
+    }
+  },
+  {
+    "id": "google-pixel-9-pro",
+    "label": "Google Pixel 9 Pro",
+    "group": "Google",
+    "enabled": true,
+    "product": "google",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "Google Pixel 9 Pro",
+    "aliases": ["Google Pixel 9 Pro", "pixel 9 pro", "Pixel 9 Pro"],
+    "mustInclude": [],
+    "mustAvoid": ["xl", "broken", "cracked", "faulty", "spares", "repairs"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 80, "maxPrice": 460 },
+      "vinted": { "minPrice": 80, "maxPrice": 460 }
+    }
+  },
+  {
+    "id": "google-pixel-9",
+    "label": "Google Pixel 9",
+    "group": "Google",
+    "enabled": true,
+    "product": "google",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "Google Pixel 9",
+    "aliases": ["Google Pixel 9", "pixel 9", "Pixel 9"],
+    "mustInclude": [],
+    "mustAvoid": ["pro", "xl", "broken", "cracked", "faulty", "spares", "repairs"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 60, "maxPrice": 330 },
+      "vinted": { "minPrice": 60, "maxPrice": 330 }
+    }
+  },
+  {
+    "id": "google-pixel-8-pro",
+    "label": "Google Pixel 8 Pro",
+    "group": "Google",
+    "enabled": true,
+    "product": "google",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "Google Pixel 8 Pro",
+    "aliases": ["Google Pixel 8 Pro", "pixel 8 pro", "Pixel 8 Pro"],
+    "mustInclude": [],
+    "mustAvoid": ["broken", "cracked", "faulty", "spares", "repairs"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 60, "maxPrice": 300 },
+      "vinted": { "minPrice": 60, "maxPrice": 300 }
+    }
+  },
+  {
+    "id": "google-pixel-8",
+    "label": "Google Pixel 8",
+    "group": "Google",
+    "enabled": true,
+    "product": "google",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "Google Pixel 8",
+    "aliases": ["Google Pixel 8", "pixel 8", "Pixel 8"],
+    "mustInclude": [],
+    "mustAvoid": ["pro", "broken", "cracked", "faulty", "spares", "repairs"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 50, "maxPrice": 210 },
+      "vinted": { "minPrice": 50, "maxPrice": 210 }
     }
   },
   {
@@ -1580,157 +1266,60 @@
     "enabled": true,
     "product": "playstation",
     "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "PS5 Pro",
-    "aliases": [
-      "PS5 Pro",
-      "ps5 pro"
-    ],
+    "aliases": ["PS5 Pro", "ps5 pro", "PlayStation 5 Pro", "playstation 5 pro"],
     "mustInclude": [],
-    "mustAvoid": [],
+    "mustAvoid": ["game only", "controller only", "broken", "faulty", "spares", "repairs"],
     "radiusKM": null,
     "minPrice": null,
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 620
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 620
-      }
-    }
-  },
-  {
-    "id": "playstation-5-pro",
-    "label": "PlayStation 5 Pro",
-    "group": "PlayStation",
-    "enabled": true,
-    "product": "playstation",
-    "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
-    "query": "PlayStation 5 Pro",
-    "aliases": [
-      "PlayStation 5 Pro",
-      "playstation 5 pro"
-    ],
-    "mustInclude": [],
-    "mustAvoid": [],
-    "radiusKM": null,
-    "minPrice": null,
-    "maxPrice": null,
-    "allowShipping": true,
-    "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 620
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 620
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 620 },
+      "vinted": { "minPrice": 50, "maxPrice": 620 }
     }
   },
   {
     "id": "ps5-digital",
-    "label": "PS5 digital",
+    "label": "PS5 Digital",
     "group": "PlayStation",
     "enabled": true,
     "product": "playstation",
     "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "PS5 digital",
-    "aliases": [
-      "PS5 digital",
-      "ps5 digital"
-    ],
+    "aliases": ["PS5 digital", "ps5 digital", "PlayStation 5 Digital"],
     "mustInclude": [],
-    "mustAvoid": [],
+    "mustAvoid": ["game only", "controller only", "broken", "faulty", "spares", "repairs"],
     "radiusKM": null,
     "minPrice": null,
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 280
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 280
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 280 },
+      "vinted": { "minPrice": 50, "maxPrice": 280 }
     }
   },
   {
-    "id": "ps5-disco",
-    "label": "PS5 disco",
+    "id": "ps5-disc",
+    "label": "PS5 Disc",
     "group": "PlayStation",
     "enabled": true,
     "product": "playstation",
     "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
-    "query": "PS5 disco",
-    "aliases": [
-      "PS5 disco",
-      "ps5 disco"
-    ],
+    "platforms": ["facebook", "vinted"],
+    "query": "PS5 disc",
+    "aliases": ["PS5 disc", "ps5 disc", "PS5 disco", "PlayStation 5", "playstation 5"],
     "mustInclude": [],
-    "mustAvoid": [],
+    "mustAvoid": ["game only", "controller only", "broken", "faulty", "spares", "repairs"],
     "radiusKM": null,
     "minPrice": null,
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 60,
-        "maxPrice": 320
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 320
-      }
-    }
-  },
-  {
-    "id": "playstation-5",
-    "label": "PlayStation 5",
-    "group": "PlayStation",
-    "enabled": true,
-    "product": "playstation",
-    "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
-    "query": "PlayStation 5",
-    "aliases": [
-      "PlayStation 5",
-      "playstation 5"
-    ],
-    "mustInclude": [],
-    "mustAvoid": [],
-    "radiusKM": null,
-    "minPrice": null,
-    "maxPrice": null,
-    "allowShipping": true,
-    "platformOverrides": {
-      "facebook": {
-        "minPrice": 60,
-        "maxPrice": 320
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 320
-      }
+      "facebook": { "minPrice": 60, "maxPrice": 320 },
+      "vinted": { "minPrice": 50, "maxPrice": 320 }
     }
   },
   {
@@ -1740,109 +1329,144 @@
     "enabled": true,
     "product": "playstation",
     "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "PS5",
-    "aliases": [
-      "PS5",
-      "ps5"
-    ],
+    "aliases": ["PS5", "ps5"],
     "mustInclude": [],
-    "mustAvoid": [],
+    "mustAvoid": ["game only", "controller only", "broken", "faulty", "spares", "repairs"],
     "radiusKM": null,
     "minPrice": null,
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 60,
-        "maxPrice": null
-      },
-      "vinted": {
-        "minPrice": 60,
-        "maxPrice": 320
-      }
+      "facebook": { "minPrice": 60, "maxPrice": null },
+      "vinted": { "minPrice": 60, "maxPrice": 320 }
     }
   },
   {
-    "id": "apple-watch-series-9",
-    "label": "Apple Watch Series 9",
-    "group": "Wearables",
+    "id": "nintendo-switch-oled",
+    "label": "Nintendo Switch OLED",
+    "group": "Consoles",
     "enabled": true,
-    "product": "ipad",
+    "product": "console",
     "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
-    "query": "Apple Watch Series 9",
-    "aliases": [
-      "Apple Watch Series 9",
-      "apple watch series 9"
-    ],
+    "platforms": ["facebook", "vinted"],
+    "query": "Nintendo Switch OLED",
+    "aliases": ["Nintendo Switch OLED", "nintendo switch oled", "Switch OLED"],
     "mustInclude": [],
-    "mustAvoid": [
-      "band",
-      "strap",
-      "case",
-      "broken",
-      "faulty",
-      "spares",
-      "repairs"
-    ],
+    "mustAvoid": ["game only", "case only", "controller only", "broken", "faulty", "spares", "repairs", "dock only"],
     "radiusKM": null,
     "minPrice": null,
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 200
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 200
-      }
+      "facebook": { "minPrice": 50, "maxPrice": 200 },
+      "vinted": { "minPrice": 50, "maxPrice": 170 }
     }
   },
   {
-    "id": "apple-watch-series-10",
-    "label": "Apple Watch Series 10",
-    "group": "Wearables",
+    "id": "xbox-series-x",
+    "label": "Xbox Series X",
+    "group": "Consoles",
     "enabled": true,
-    "product": "ipad",
+    "product": "console",
     "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
-    "query": "Apple Watch Series 10",
-    "aliases": [
-      "Apple Watch Series 10",
-      "apple watch series 10"
-    ],
+    "platforms": ["facebook", "vinted"],
+    "query": "Xbox Series X",
+    "aliases": ["Xbox Series X", "xbox series x"],
     "mustInclude": [],
-    "mustAvoid": [
-      "band",
-      "strap",
-      "case",
-      "broken",
-      "faulty",
-      "spares",
-      "repairs"
-    ],
+    "mustAvoid": ["game only", "controller only", "broken", "faulty", "spares", "repairs"],
     "radiusKM": null,
     "minPrice": null,
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 280
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 280
-      }
+      "facebook": { "minPrice": 80, "maxPrice": 280 },
+      "vinted": { "minPrice": 80, "maxPrice": 260 }
+    }
+  },
+  {
+    "id": "steam-deck-oled",
+    "label": "Steam Deck OLED",
+    "group": "Gaming",
+    "enabled": true,
+    "product": "console",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "Steam Deck OLED",
+    "aliases": ["Steam Deck OLED", "steam deck oled"],
+    "mustInclude": [],
+    "mustAvoid": ["case only", "broken", "faulty", "spares", "repairs", "dock only"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 100, "maxPrice": 360 },
+      "vinted": { "minPrice": 100, "maxPrice": 360 }
+    }
+  },
+  {
+    "id": "steam-deck",
+    "label": "Steam Deck",
+    "group": "Gaming",
+    "enabled": true,
+    "product": "console",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "Steam Deck",
+    "aliases": ["Steam Deck", "steam deck"],
+    "mustInclude": [],
+    "mustAvoid": ["case only", "broken", "faulty", "spares", "repairs", "dock only"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 100, "maxPrice": 320 },
+      "vinted": { "minPrice": 100, "maxPrice": 320 }
+    }
+  },
+  {
+    "id": "meta-quest-3",
+    "label": "Meta Quest 3",
+    "group": "VR",
+    "enabled": true,
+    "product": "vr",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "Meta Quest 3",
+    "aliases": ["Meta Quest 3", "meta quest 3", "Quest 3", "Oculus Quest 3"],
+    "mustInclude": [],
+    "mustAvoid": ["controller only", "broken", "faulty", "spares", "repairs", "3s", "3S"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 80, "maxPrice": 290 },
+      "vinted": { "minPrice": 80, "maxPrice": 290 }
+    }
+  },
+  {
+    "id": "meta-quest-3s",
+    "label": "Meta Quest 3S",
+    "group": "VR",
+    "enabled": true,
+    "product": "vr",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "Meta Quest 3S",
+    "aliases": ["Meta Quest 3S", "meta quest 3s", "Quest 3S"],
+    "mustInclude": [],
+    "mustAvoid": ["controller only", "broken", "faulty", "spares", "repairs"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 60, "maxPrice": 190 },
+      "vinted": { "minPrice": 60, "maxPrice": 190 }
     }
   },
   {
@@ -1850,39 +1474,188 @@
     "label": "Apple Watch Ultra 2",
     "group": "Wearables",
     "enabled": true,
-    "product": "ipad",
+    "product": "wearable",
     "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "Apple Watch Ultra 2",
-    "aliases": [
-      "Apple Watch Ultra 2",
-      "apple watch ultra 2"
-    ],
+    "aliases": ["Apple Watch Ultra 2", "apple watch ultra 2"],
     "mustInclude": [],
-    "mustAvoid": [
-      "band",
-      "strap",
-      "case",
-      "broken",
-      "faulty",
-      "spares",
-      "repairs"
-    ],
+    "mustAvoid": ["band", "strap", "case", "broken", "faulty", "spares", "repairs"],
     "radiusKM": null,
     "minPrice": null,
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 100,
-        "maxPrice": 500
-      },
-      "vinted": {
-        "minPrice": 100,
-        "maxPrice": 500
-      }
+      "facebook": { "minPrice": 100, "maxPrice": 500 },
+      "vinted": { "minPrice": 100, "maxPrice": 500 }
+    }
+  },
+  {
+    "id": "apple-watch-series-10",
+    "label": "Apple Watch Series 10",
+    "group": "Wearables",
+    "enabled": true,
+    "product": "wearable",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "Apple Watch Series 10",
+    "aliases": ["Apple Watch Series 10", "apple watch series 10"],
+    "mustInclude": [],
+    "mustAvoid": ["band", "strap", "case", "broken", "faulty", "spares", "repairs"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 50, "maxPrice": 280 },
+      "vinted": { "minPrice": 50, "maxPrice": 280 }
+    }
+  },
+  {
+    "id": "apple-watch-series-9",
+    "label": "Apple Watch Series 9",
+    "group": "Wearables",
+    "enabled": true,
+    "product": "wearable",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "Apple Watch Series 9",
+    "aliases": ["Apple Watch Series 9", "apple watch series 9"],
+    "mustInclude": [],
+    "mustAvoid": ["band", "strap", "case", "broken", "faulty", "spares", "repairs"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 50, "maxPrice": 200 },
+      "vinted": { "minPrice": 50, "maxPrice": 200 }
+    }
+  },
+  {
+    "id": "samsung-galaxy-watch-7",
+    "label": "Samsung Galaxy Watch 7",
+    "group": "Wearables",
+    "enabled": true,
+    "product": "wearable",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "Samsung Galaxy Watch 7",
+    "aliases": ["Samsung Galaxy Watch 7", "galaxy watch 7", "Galaxy Watch 7"],
+    "mustInclude": [],
+    "mustAvoid": ["band", "strap", "case", "broken", "faulty", "spares", "repairs", "ultra"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 30, "maxPrice": 140 },
+      "vinted": { "minPrice": 30, "maxPrice": 140 }
+    }
+  },
+  {
+    "id": "samsung-galaxy-watch-ultra",
+    "label": "Samsung Galaxy Watch Ultra",
+    "group": "Wearables",
+    "enabled": true,
+    "product": "wearable",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "Samsung Galaxy Watch Ultra",
+    "aliases": ["Samsung Galaxy Watch Ultra", "galaxy watch ultra", "Galaxy Watch Ultra"],
+    "mustInclude": [],
+    "mustAvoid": ["band", "strap", "case", "broken", "faulty", "spares", "repairs"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 80, "maxPrice": 280 },
+      "vinted": { "minPrice": 80, "maxPrice": 280 }
+    }
+  },
+  {
+    "id": "garmin-fenix-8",
+    "label": "Garmin Fenix 8",
+    "group": "Wearables",
+    "enabled": true,
+    "product": "wearable",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "Garmin Fenix 8",
+    "aliases": ["Garmin Fenix 8", "garmin fenix 8", "Fenix 8"],
+    "mustInclude": [],
+    "mustAvoid": ["band", "strap", "case", "broken", "faulty", "spares", "repairs"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 150, "maxPrice": 500 },
+      "vinted": { "minPrice": 150, "maxPrice": 500 }
+    }
+  },
+  {
+    "id": "garmin-fenix-7",
+    "label": "Garmin Fenix 7",
+    "group": "Wearables",
+    "enabled": true,
+    "product": "wearable",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "Garmin Fenix 7",
+    "aliases": ["Garmin Fenix 7", "garmin fenix 7", "Fenix 7"],
+    "mustInclude": [],
+    "mustAvoid": ["band", "strap", "case", "broken", "faulty", "spares", "repairs"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 100, "maxPrice": 290 },
+      "vinted": { "minPrice": 100, "maxPrice": 290 }
+    }
+  },
+  {
+    "id": "ipad-pro-m4-13",
+    "label": "iPad Pro M4 13\"",
+    "group": "iPads",
+    "enabled": true,
+    "product": "ipad",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "iPad Pro M4 13",
+    "aliases": ["iPad Pro M4 13", "ipad pro m4 13", "iPad Pro 13 M4", "iPad Pro 13 2024"],
+    "mustInclude": [],
+    "mustAvoid": ["case", "cover", "keyboard", "pencil", "broken", "cracked", "smashed", "spares", "repairs", "liquid"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 150, "maxPrice": 800 },
+      "vinted": { "minPrice": 150, "maxPrice": 800 }
+    }
+  },
+  {
+    "id": "ipad-pro-m4-11",
+    "label": "iPad Pro M4 11\"",
+    "group": "iPads",
+    "enabled": true,
+    "product": "ipad",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "iPad Pro M4 11",
+    "aliases": ["iPad Pro M4 11", "ipad pro m4 11", "iPad Pro 11 M4", "iPad Pro 11 2024"],
+    "mustInclude": [],
+    "mustAvoid": ["case", "cover", "keyboard", "pencil", "broken", "cracked", "smashed", "spares", "repairs", "liquid"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 120, "maxPrice": 600 },
+      "vinted": { "minPrice": 120, "maxPrice": 600 }
     }
   },
   {
@@ -1892,42 +1665,18 @@
     "enabled": true,
     "product": "ipad",
     "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPad Pro 13",
-    "aliases": [
-      "iPad Pro 13",
-      "ipad pro 13",
-      "iPad Pro 12.9",
-      "ipad pro 12.9"
-    ],
+    "aliases": ["iPad Pro 13", "ipad pro 13", "iPad Pro 12.9", "ipad pro 12.9"],
     "mustInclude": [],
-    "mustAvoid": [
-      "case",
-      "cover",
-      "keyboard",
-      "pencil",
-      "broken",
-      "cracked",
-      "smashed",
-      "spares",
-      "repairs",
-      "liquid"
-    ],
+    "mustAvoid": ["case", "cover", "keyboard", "pencil", "broken", "cracked", "smashed", "spares", "repairs", "liquid"],
     "radiusKM": null,
     "minPrice": null,
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 100,
-        "maxPrice": 550
-      },
-      "vinted": {
-        "minPrice": 100,
-        "maxPrice": 550
-      }
+      "facebook": { "minPrice": 100, "maxPrice": 550 },
+      "vinted": { "minPrice": 100, "maxPrice": 550 }
     }
   },
   {
@@ -1937,40 +1686,39 @@
     "enabled": true,
     "product": "ipad",
     "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPad Pro 11",
-    "aliases": [
-      "iPad Pro 11",
-      "ipad pro 11"
-    ],
+    "aliases": ["iPad Pro 11", "ipad pro 11"],
     "mustInclude": [],
-    "mustAvoid": [
-      "case",
-      "cover",
-      "keyboard",
-      "pencil",
-      "broken",
-      "cracked",
-      "smashed",
-      "spares",
-      "repairs",
-      "liquid"
-    ],
+    "mustAvoid": ["case", "cover", "keyboard", "pencil", "broken", "cracked", "smashed", "spares", "repairs", "liquid"],
     "radiusKM": null,
     "minPrice": null,
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 100,
-        "maxPrice": 420
-      },
-      "vinted": {
-        "minPrice": 100,
-        "maxPrice": 420
-      }
+      "facebook": { "minPrice": 100, "maxPrice": 420 },
+      "vinted": { "minPrice": 100, "maxPrice": 420 }
+    }
+  },
+  {
+    "id": "ipad-air-m3",
+    "label": "iPad Air M3",
+    "group": "iPads",
+    "enabled": true,
+    "product": "ipad",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "iPad Air M3",
+    "aliases": ["iPad Air M3", "ipad air m3", "iPad Air 2025"],
+    "mustInclude": [],
+    "mustAvoid": ["case", "cover", "keyboard", "pencil", "broken", "cracked", "smashed", "spares", "repairs"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 100, "maxPrice": 450 },
+      "vinted": { "minPrice": 100, "maxPrice": 450 }
     }
   },
   {
@@ -1980,167 +1728,60 @@
     "enabled": true,
     "product": "ipad",
     "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "iPad Air M2",
-    "aliases": [
-      "iPad Air M2",
-      "ipad air m2",
-      "iPad Air M1",
-      "ipad air m1",
-      "iPad Air 5th",
-      "iPad Air 6th"
-    ],
+    "aliases": ["iPad Air M2", "ipad air m2", "iPad Air M1", "ipad air m1", "iPad Air 5th", "iPad Air 6th"],
     "mustInclude": [],
-    "mustAvoid": [
-      "case",
-      "cover",
-      "keyboard",
-      "pencil",
-      "broken",
-      "cracked",
-      "smashed",
-      "spares",
-      "repairs"
-    ],
+    "mustAvoid": ["case", "cover", "keyboard", "pencil", "broken", "cracked", "smashed", "spares", "repairs"],
     "radiusKM": null,
     "minPrice": null,
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 80,
-        "maxPrice": 320
-      },
-      "vinted": {
-        "minPrice": 80,
-        "maxPrice": 320
-      }
+      "facebook": { "minPrice": 80, "maxPrice": 320 },
+      "vinted": { "minPrice": 80, "maxPrice": 320 }
     }
   },
   {
-    "id": "ipad-mini-6",
-    "label": "iPad mini 6",
+    "id": "ipad-mini-7",
+    "label": "iPad mini 7",
     "group": "iPads",
     "enabled": true,
     "product": "ipad",
     "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
-    "query": "iPad mini 6",
-    "aliases": [
-      "iPad mini 6",
-      "ipad mini 6",
-      "iPad mini 7",
-      "ipad mini 7"
-    ],
+    "platforms": ["facebook", "vinted"],
+    "query": "iPad mini 7",
+    "aliases": ["iPad mini 7", "ipad mini 7", "iPad mini 6", "ipad mini 6"],
     "mustInclude": [],
-    "mustAvoid": [
-      "case",
-      "cover",
-      "broken",
-      "cracked",
-      "smashed",
-      "spares",
-      "repairs"
-    ],
+    "mustAvoid": ["case", "cover", "broken", "cracked", "smashed", "spares", "repairs"],
     "radiusKM": null,
     "minPrice": null,
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 60,
-        "maxPrice": 230
-      },
-      "vinted": {
-        "minPrice": 60,
-        "maxPrice": 230
-      }
+      "facebook": { "minPrice": 60, "maxPrice": 260 },
+      "vinted": { "minPrice": 60, "maxPrice": 260 }
     }
   },
   {
-    "id": "macbook-air-m1",
-    "label": "MacBook Air M1",
+    "id": "macbook-air-m4",
+    "label": "MacBook Air M4",
     "group": "MacBooks",
     "enabled": true,
     "product": "mac",
     "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
-    "query": "MacBook Air M1",
-    "aliases": [
-      "MacBook Air M1",
-      "macbook air m1"
-    ],
+    "platforms": ["facebook", "vinted"],
+    "query": "MacBook Air M4",
+    "aliases": ["MacBook Air M4", "macbook air m4"],
     "mustInclude": [],
-    "mustAvoid": [
-      "charger only",
-      "broken",
-      "cracked",
-      "liquid damage",
-      "water damage",
-      "spares",
-      "repairs",
-      "faulty"
-    ],
+    "mustAvoid": ["charger only", "broken", "cracked", "liquid damage", "water damage", "spares", "repairs", "faulty"],
     "radiusKM": null,
     "minPrice": null,
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 150,
-        "maxPrice": 450
-      },
-      "vinted": {
-        "minPrice": 150,
-        "maxPrice": 450
-      }
-    }
-  },
-  {
-    "id": "macbook-air-m2",
-    "label": "MacBook Air M2",
-    "group": "MacBooks",
-    "enabled": true,
-    "product": "mac",
-    "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
-    "query": "MacBook Air M2",
-    "aliases": [
-      "MacBook Air M2",
-      "macbook air m2"
-    ],
-    "mustInclude": [],
-    "mustAvoid": [
-      "charger only",
-      "broken",
-      "cracked",
-      "liquid damage",
-      "water damage",
-      "spares",
-      "repairs",
-      "faulty"
-    ],
-    "radiusKM": null,
-    "minPrice": null,
-    "maxPrice": null,
-    "allowShipping": true,
-    "platformOverrides": {
-      "facebook": {
-        "minPrice": 200,
-        "maxPrice": 650
-      },
-      "vinted": {
-        "minPrice": 200,
-        "maxPrice": 650
-      }
+      "facebook": { "minPrice": 300, "maxPrice": 800 },
+      "vinted": { "minPrice": 300, "maxPrice": 800 }
     }
   },
   {
@@ -2150,38 +1791,123 @@
     "enabled": true,
     "product": "mac",
     "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "MacBook Air M3",
-    "aliases": [
-      "MacBook Air M3",
-      "macbook air m3"
-    ],
+    "aliases": ["MacBook Air M3", "macbook air m3"],
     "mustInclude": [],
-    "mustAvoid": [
-      "charger only",
-      "broken",
-      "cracked",
-      "liquid damage",
-      "water damage",
-      "spares",
-      "repairs",
-      "faulty"
-    ],
+    "mustAvoid": ["charger only", "broken", "cracked", "liquid damage", "water damage", "spares", "repairs", "faulty"],
     "radiusKM": null,
     "minPrice": null,
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 300,
-        "maxPrice": 850
-      },
-      "vinted": {
-        "minPrice": 300,
-        "maxPrice": 850
-      }
+      "facebook": { "minPrice": 300, "maxPrice": 850 },
+      "vinted": { "minPrice": 300, "maxPrice": 850 }
+    }
+  },
+  {
+    "id": "macbook-air-m2",
+    "label": "MacBook Air M2",
+    "group": "MacBooks",
+    "enabled": true,
+    "product": "mac",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "MacBook Air M2",
+    "aliases": ["MacBook Air M2", "macbook air m2"],
+    "mustInclude": [],
+    "mustAvoid": ["charger only", "broken", "cracked", "liquid damage", "water damage", "spares", "repairs", "faulty"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 200, "maxPrice": 650 },
+      "vinted": { "minPrice": 200, "maxPrice": 650 }
+    }
+  },
+  {
+    "id": "macbook-air-m1",
+    "label": "MacBook Air M1",
+    "group": "MacBooks",
+    "enabled": true,
+    "product": "mac",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "MacBook Air M1",
+    "aliases": ["MacBook Air M1", "macbook air m1"],
+    "mustInclude": [],
+    "mustAvoid": ["charger only", "broken", "cracked", "liquid damage", "water damage", "spares", "repairs", "faulty"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 150, "maxPrice": 450 },
+      "vinted": { "minPrice": 150, "maxPrice": 450 }
+    }
+  },
+  {
+    "id": "macbook-pro-16-m4",
+    "label": "MacBook Pro 16 M4",
+    "group": "MacBooks",
+    "enabled": true,
+    "product": "mac",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "MacBook Pro 16 M4",
+    "aliases": ["MacBook Pro 16 M4", "macbook pro 16 m4", "MacBook Pro 16 M4 Pro", "MacBook Pro 16 M4 Max"],
+    "mustInclude": [],
+    "mustAvoid": ["charger only", "broken", "cracked", "liquid damage", "water damage", "spares", "repairs", "faulty"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 600, "maxPrice": 1800 },
+      "vinted": { "minPrice": 600, "maxPrice": 1800 }
+    }
+  },
+  {
+    "id": "macbook-pro-16-m3",
+    "label": "MacBook Pro 16 M3",
+    "group": "MacBooks",
+    "enabled": true,
+    "product": "mac",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "MacBook Pro 16 M3",
+    "aliases": ["MacBook Pro 16 M3", "macbook pro 16 m3", "MacBook Pro 16 M3 Pro", "MacBook Pro 16 M3 Max"],
+    "mustInclude": [],
+    "mustAvoid": ["charger only", "broken", "cracked", "liquid damage", "water damage", "spares", "repairs", "faulty"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 500, "maxPrice": 1500 },
+      "vinted": { "minPrice": 500, "maxPrice": 1500 }
+    }
+  },
+  {
+    "id": "macbook-pro-14-m4",
+    "label": "MacBook Pro 14 M4",
+    "group": "MacBooks",
+    "enabled": true,
+    "product": "mac",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "MacBook Pro 14 M4",
+    "aliases": ["MacBook Pro 14 M4", "macbook pro 14 m4", "MacBook Pro 14 M4 Pro"],
+    "mustInclude": [],
+    "mustAvoid": ["charger only", "broken", "cracked", "liquid damage", "water damage", "spares", "repairs", "faulty"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 400, "maxPrice": 1300 },
+      "vinted": { "minPrice": 400, "maxPrice": 1300 }
     }
   },
   {
@@ -2191,42 +1917,18 @@
     "enabled": true,
     "product": "mac",
     "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "MacBook Pro 14",
-    "aliases": [
-      "MacBook Pro 14",
-      "macbook pro 14",
-      "MacBook Pro 14 M3",
-      "macbook pro 14 m3",
-      "MacBook Pro 14 M2",
-      "macbook pro 14 m2"
-    ],
+    "aliases": ["MacBook Pro 14", "macbook pro 14", "MacBook Pro 14 M3", "macbook pro 14 m3", "MacBook Pro 14 M2", "macbook pro 14 m2"],
     "mustInclude": [],
-    "mustAvoid": [
-      "charger only",
-      "broken",
-      "cracked",
-      "liquid damage",
-      "water damage",
-      "spares",
-      "repairs",
-      "faulty"
-    ],
+    "mustAvoid": ["charger only", "broken", "cracked", "liquid damage", "water damage", "spares", "repairs", "faulty"],
     "radiusKM": null,
     "minPrice": null,
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 400,
-        "maxPrice": 1100
-      },
-      "vinted": {
-        "minPrice": 400,
-        "maxPrice": 1100
-      }
+      "facebook": { "minPrice": 400, "maxPrice": 1100 },
+      "vinted": { "minPrice": 400, "maxPrice": 1100 }
     }
   },
   {
@@ -2236,40 +1938,18 @@
     "enabled": true,
     "product": "airpods",
     "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "AirPods Pro 2",
-    "aliases": [
-      "AirPods Pro 2",
-      "airpods pro 2",
-      "AirPods Pro 2nd",
-      "airpods pro 2nd generation"
-    ],
+    "aliases": ["AirPods Pro 2", "airpods pro 2", "AirPods Pro 2nd", "airpods pro 2nd generation"],
     "mustInclude": [],
-    "mustAvoid": [
-      "case only",
-      "one earbud",
-      "broken",
-      "cracked",
-      "missing",
-      "spares",
-      "repairs",
-      "faulty"
-    ],
+    "mustAvoid": ["case only", "one earbud", "broken", "cracked", "missing", "spares", "repairs", "faulty"],
     "radiusKM": null,
     "minPrice": null,
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 30,
-        "maxPrice": 140
-      },
-      "vinted": {
-        "minPrice": 30,
-        "maxPrice": 140
-      }
+      "facebook": { "minPrice": 30, "maxPrice": 140 },
+      "vinted": { "minPrice": 30, "maxPrice": 140 }
     }
   },
   {
@@ -2279,165 +1959,354 @@
     "enabled": true,
     "product": "airpods",
     "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
+    "platforms": ["facebook", "vinted"],
     "query": "AirPods 4",
-    "aliases": [
-      "AirPods 4",
-      "airpods 4",
-      "AirPods 3",
-      "airpods 3",
-      "AirPods 3rd generation",
-      "AirPods 4th generation"
-    ],
+    "aliases": ["AirPods 4", "airpods 4", "AirPods 4th generation"],
     "mustInclude": [],
-    "mustAvoid": [
-      "case only",
-      "one earbud",
-      "broken",
-      "cracked",
-      "missing",
-      "spares",
-      "repairs",
-      "faulty"
-    ],
+    "mustAvoid": ["case only", "one earbud", "broken", "cracked", "missing", "spares", "repairs", "faulty"],
     "radiusKM": null,
     "minPrice": null,
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 20,
-        "maxPrice": 90
-      },
-      "vinted": {
-        "minPrice": 20,
-        "maxPrice": 90
-      }
+      "facebook": { "minPrice": 20, "maxPrice": 100 },
+      "vinted": { "minPrice": 20, "maxPrice": 100 }
     }
   },
   {
-    "id": "nintendo-switch-oled",
-    "label": "Nintendo Switch OLED",
-    "group": "Gaming",
-    "enabled": false,
-    "product": "console",
+    "id": "airpods-max",
+    "label": "AirPods Max",
+    "group": "AirPods",
+    "enabled": true,
+    "product": "airpods",
     "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
-    "query": "Nintendo Switch OLED",
-    "aliases": [
-      "Nintendo Switch OLED",
-      "nintendo switch oled",
-      "Switch OLED"
-    ],
+    "platforms": ["facebook", "vinted"],
+    "query": "AirPods Max",
+    "aliases": ["AirPods Max", "airpods max"],
     "mustInclude": [],
-    "mustAvoid": [
-      "game only",
-      "case only",
-      "controller only",
-      "broken",
-      "faulty",
-      "spares",
-      "repairs",
-      "dock only"
-    ],
+    "mustAvoid": ["case only", "broken", "cracked", "faulty", "spares", "repairs"],
     "radiusKM": null,
     "minPrice": null,
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 50,
-        "maxPrice": 200
-      },
-      "vinted": {
-        "minPrice": 50,
-        "maxPrice": 170
-      }
+      "facebook": { "minPrice": 80, "maxPrice": 340 },
+      "vinted": { "minPrice": 80, "maxPrice": 340 }
     }
   },
   {
-    "id": "xbox-series-x",
-    "label": "Xbox Series X",
-    "group": "Gaming",
-    "enabled": false,
-    "product": "console",
+    "id": "sony-wh1000xm5",
+    "label": "Sony WH-1000XM5",
+    "group": "Headphones",
+    "enabled": true,
+    "product": "headphones",
     "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
-    "query": "Xbox Series X",
-    "aliases": [
-      "Xbox Series X",
-      "xbox series x"
-    ],
+    "platforms": ["facebook", "vinted"],
+    "query": "Sony WH-1000XM5",
+    "aliases": ["Sony WH-1000XM5", "sony wh1000xm5", "WH-1000XM5", "xm5"],
     "mustInclude": [],
-    "mustAvoid": [
-      "game only",
-      "controller only",
-      "broken",
-      "faulty",
-      "spares",
-      "repairs",
-      "disc drive"
-    ],
+    "mustAvoid": ["broken", "faulty", "spares", "repairs", "one side", "no sound"],
     "radiusKM": null,
     "minPrice": null,
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 80,
-        "maxPrice": 280
-      },
-      "vinted": {
-        "minPrice": 80,
-        "maxPrice": 260
-      }
+      "facebook": { "minPrice": 30, "maxPrice": 160 },
+      "vinted": { "minPrice": 30, "maxPrice": 160 }
     }
   },
   {
-    "id": "steam-deck",
-    "label": "Steam Deck",
-    "group": "Gaming",
-    "enabled": false,
-    "product": "console",
+    "id": "sony-wh1000xm4",
+    "label": "Sony WH-1000XM4",
+    "group": "Headphones",
+    "enabled": true,
+    "product": "headphones",
     "targetType": "electronics",
-    "platforms": [
-      "vinted"
-    ],
-    "query": "Steam Deck",
-    "aliases": [
-      "Steam Deck",
-      "steam deck",
-      "Steam Deck OLED",
-      "steam deck oled"
-    ],
+    "platforms": ["facebook", "vinted"],
+    "query": "Sony WH-1000XM4",
+    "aliases": ["Sony WH-1000XM4", "sony wh1000xm4", "WH-1000XM4", "xm4"],
     "mustInclude": [],
-    "mustAvoid": [
-      "case only",
-      "broken",
-      "faulty",
-      "spares",
-      "repairs",
-      "dock only"
-    ],
+    "mustAvoid": ["broken", "faulty", "spares", "repairs", "one side", "no sound"],
     "radiusKM": null,
     "minPrice": null,
     "maxPrice": null,
     "allowShipping": true,
     "platformOverrides": {
-      "facebook": {
-        "minPrice": 100,
-        "maxPrice": 320
-      },
-      "vinted": {
-        "minPrice": 100,
-        "maxPrice": 360
-      }
+      "facebook": { "minPrice": 20, "maxPrice": 110 },
+      "vinted": { "minPrice": 20, "maxPrice": 110 }
+    }
+  },
+  {
+    "id": "sony-wf1000xm5",
+    "label": "Sony WF-1000XM5",
+    "group": "Headphones",
+    "enabled": true,
+    "product": "headphones",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "Sony WF-1000XM5",
+    "aliases": ["Sony WF-1000XM5", "sony wf1000xm5", "WF-1000XM5"],
+    "mustInclude": [],
+    "mustAvoid": ["case only", "one earbud", "broken", "faulty", "spares", "repairs"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 30, "maxPrice": 130 },
+      "vinted": { "minPrice": 30, "maxPrice": 130 }
+    }
+  },
+  {
+    "id": "bose-qc45",
+    "label": "Bose QuietComfort 45",
+    "group": "Headphones",
+    "enabled": true,
+    "product": "headphones",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "Bose QuietComfort 45",
+    "aliases": ["Bose QuietComfort 45", "bose qc45", "Bose QC45", "QC45"],
+    "mustInclude": [],
+    "mustAvoid": ["broken", "faulty", "spares", "repairs", "one side", "no sound"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 25, "maxPrice": 120 },
+      "vinted": { "minPrice": 25, "maxPrice": 120 }
+    }
+  },
+  {
+    "id": "bose-qc-ultra",
+    "label": "Bose QuietComfort Ultra",
+    "group": "Headphones",
+    "enabled": true,
+    "product": "headphones",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "Bose QuietComfort Ultra",
+    "aliases": ["Bose QuietComfort Ultra", "bose qc ultra", "Bose QC Ultra"],
+    "mustInclude": [],
+    "mustAvoid": ["broken", "faulty", "spares", "repairs", "one side", "no sound"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 40, "maxPrice": 180 },
+      "vinted": { "minPrice": 40, "maxPrice": 180 }
+    }
+  },
+  {
+    "id": "dyson-airwrap",
+    "label": "Dyson Airwrap",
+    "group": "Dyson",
+    "enabled": true,
+    "product": "dyson",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "Dyson Airwrap",
+    "aliases": ["Dyson Airwrap", "dyson airwrap"],
+    "mustInclude": [],
+    "mustAvoid": ["attachment only", "broken", "faulty", "spares", "repairs"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 80, "maxPrice": 340 },
+      "vinted": { "minPrice": 80, "maxPrice": 340 }
+    }
+  },
+  {
+    "id": "dyson-supersonic",
+    "label": "Dyson Supersonic",
+    "group": "Dyson",
+    "enabled": true,
+    "product": "dyson",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "Dyson Supersonic",
+    "aliases": ["Dyson Supersonic", "dyson supersonic"],
+    "mustInclude": [],
+    "mustAvoid": ["attachment only", "broken", "faulty", "spares", "repairs"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 50, "maxPrice": 200 },
+      "vinted": { "minPrice": 50, "maxPrice": 200 }
+    }
+  },
+  {
+    "id": "dyson-v15",
+    "label": "Dyson V15 Detect",
+    "group": "Dyson",
+    "enabled": true,
+    "product": "dyson",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "Dyson V15 Detect",
+    "aliases": ["Dyson V15 Detect", "dyson v15 detect", "Dyson V15", "dyson v15"],
+    "mustInclude": [],
+    "mustAvoid": ["attachment only", "broken", "faulty", "spares", "repairs", "no battery", "no suction"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 60, "maxPrice": 260 },
+      "vinted": { "minPrice": 60, "maxPrice": 260 }
+    }
+  },
+  {
+    "id": "dyson-v12",
+    "label": "Dyson V12 Detect",
+    "group": "Dyson",
+    "enabled": true,
+    "product": "dyson",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "Dyson V12 Detect",
+    "aliases": ["Dyson V12 Detect", "dyson v12 detect", "Dyson V12", "dyson v12"],
+    "mustInclude": [],
+    "mustAvoid": ["attachment only", "broken", "faulty", "spares", "repairs", "no battery", "no suction"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 50, "maxPrice": 200 },
+      "vinted": { "minPrice": 50, "maxPrice": 200 }
+    }
+  },
+  {
+    "id": "dyson-v11",
+    "label": "Dyson V11",
+    "group": "Dyson",
+    "enabled": true,
+    "product": "dyson",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "Dyson V11",
+    "aliases": ["Dyson V11", "dyson v11"],
+    "mustInclude": [],
+    "mustAvoid": ["attachment only", "broken", "faulty", "spares", "repairs", "no battery", "no suction"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 40, "maxPrice": 150 },
+      "vinted": { "minPrice": 40, "maxPrice": 150 }
+    }
+  },
+  {
+    "id": "gopro-hero13",
+    "label": "GoPro Hero 13 Black",
+    "group": "Cameras",
+    "enabled": true,
+    "product": "camera",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "GoPro Hero 13 Black",
+    "aliases": ["GoPro Hero 13 Black", "gopro hero 13", "Hero 13 Black", "GoPro Hero13"],
+    "mustInclude": [],
+    "mustAvoid": ["broken", "cracked", "faulty", "spares", "repairs", "water damage"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 50, "maxPrice": 220 },
+      "vinted": { "minPrice": 50, "maxPrice": 220 }
+    }
+  },
+  {
+    "id": "gopro-hero12",
+    "label": "GoPro Hero 12 Black",
+    "group": "Cameras",
+    "enabled": true,
+    "product": "camera",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "GoPro Hero 12 Black",
+    "aliases": ["GoPro Hero 12 Black", "gopro hero 12", "Hero 12 Black", "GoPro Hero12"],
+    "mustInclude": [],
+    "mustAvoid": ["broken", "cracked", "faulty", "spares", "repairs", "water damage"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 40, "maxPrice": 160 },
+      "vinted": { "minPrice": 40, "maxPrice": 160 }
+    }
+  },
+  {
+    "id": "dji-mini-4-pro",
+    "label": "DJI Mini 4 Pro",
+    "group": "Cameras",
+    "enabled": true,
+    "product": "drone",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "DJI Mini 4 Pro",
+    "aliases": ["DJI Mini 4 Pro", "dji mini 4 pro", "Mini 4 Pro"],
+    "mustInclude": [],
+    "mustAvoid": ["broken", "cracked", "faulty", "spares", "repairs", "crash", "damaged"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 100, "maxPrice": 420 },
+      "vinted": { "minPrice": 100, "maxPrice": 420 }
+    }
+  },
+  {
+    "id": "dji-air-3s",
+    "label": "DJI Air 3S",
+    "group": "Cameras",
+    "enabled": true,
+    "product": "drone",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "DJI Air 3S",
+    "aliases": ["DJI Air 3S", "dji air 3s", "Air 3S"],
+    "mustInclude": [],
+    "mustAvoid": ["broken", "cracked", "faulty", "spares", "repairs", "crash", "damaged"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 150, "maxPrice": 650 },
+      "vinted": { "minPrice": 150, "maxPrice": 650 }
+    }
+  },
+  {
+    "id": "dji-osmo-pocket-3",
+    "label": "DJI Osmo Pocket 3",
+    "group": "Cameras",
+    "enabled": true,
+    "product": "camera",
+    "targetType": "electronics",
+    "platforms": ["facebook", "vinted"],
+    "query": "DJI Osmo Pocket 3",
+    "aliases": ["DJI Osmo Pocket 3", "dji osmo pocket 3", "Osmo Pocket 3"],
+    "mustInclude": [],
+    "mustAvoid": ["broken", "cracked", "faulty", "spares", "repairs", "damaged"],
+    "radiusKM": null,
+    "minPrice": null,
+    "maxPrice": null,
+    "allowShipping": true,
+    "platformOverrides": {
+      "facebook": { "minPrice": 60, "maxPrice": 220 },
+      "vinted": { "minPrice": 60, "maxPrice": 220 }
     }
   }
 ]
